@@ -2,7 +2,7 @@ import React from 'react';
 
 const CartDetail = ({product }) => {
     console.log(product)
-     const { product_title, product_image,  price, description, } = product
+     const { product_title, product_image,  price, description,rating} = product
     return (
         <div className='flex gap-8 m-5 max-w-3xl mx-auto bg-stone-100 p-4 rounded-2xl '>
             <div>
@@ -11,7 +11,8 @@ const CartDetail = ({product }) => {
             <div>
                 <h2>{product_title}</h2>
                 <p>{description}</p>
-                <p>Price${price}</p>
+                <p>Price ${price}</p>
+                <p>Rating: {rating}</p>
             </div>
             <div>
                 <h2>Delata</h2>

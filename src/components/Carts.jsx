@@ -10,8 +10,9 @@ const Carts = () => {
     const AllproductsData = useLoaderData();
   
     const [products, setProducts] = useState([])
+    const [sort, setSort] = useState('');
 
-    console.log(products)
+    // console.log(products)
 
    
 
@@ -24,6 +25,25 @@ const Carts = () => {
 
     } , [])
 
+    const handleSort = sortType => {
+        setSort(sortType);
+        if(sortType === 'price'){
+            const sorteByprice = [...products].sort((a, b) => (a.price - b.price));
+            setProducts(sorteByprice);
+        }
+
+     
+    }
+
+    const handleRating = sortType => {
+        setSort(sortType);
+      
+        if(sortType === 'rating'){
+            const sortedRating = [...products].sort((a, b) => a.rating - b.rating);
+            setProducts(sortedRating);
+        }
+    }
+
 
     
     return (
@@ -33,9 +53,14 @@ const Carts = () => {
             <h3 className='text-2xl font-bold'>Cart</h3>
             </div>
             <div className='flex gap-4 items-center'>
-            <p>Total cost:</p>
-            <button onClick={ () =>handleSort('price') } className='btn rounded-full px-4 border-2 border-fuchsia-600'>Sort by Price</button>
-            <button onClick={ () =>handleSort('rating') }>Purchase</button>
+            <p>Total cost:{products.length}</p>
+            <button onClick={ () =>handleSort('price') }
+            className='btn rounded-full px-4 border-2 border-fuchsia-600'>Sort by Price
+            </button>
+
+            <button className='btn rounded-full px-4 border-2 border-fuchsia-600'
+             onClick={ () =>handleRating('rating')} >Purchase
+             </button>
            </div> 
            </div>
       

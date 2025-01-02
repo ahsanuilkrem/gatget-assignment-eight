@@ -132,7 +132,7 @@ const NavBar = () => {
         {/* carts */}
       <div>
         {
-          location === '/carts' &&  <div className='text-center space-y-7   mt-7 text-white'>
+          location === '/dashboard/carts' &&  <div className='text-center space-y-7   mt-7 text-white'>
             <h2 className='text-white text-3xl font-bold'>Dashboard</h2>
             <p className='text-base font-normal'>Explore the latest gadgets that will take your experience to the next level.
               From smart devices to the coolest accessories, we have it all!</p>
@@ -180,7 +180,3 @@ const NavBar = () => {
 export default NavBar;
 
 
-{/* <button className='text-xl font-bold btn bg-slate-50 text-fuchsia-400 border-2 border-fuchsia-400 rounded-full px-5'>Shop Now</button> */ }
-
-{/* <button className=' btn rounded-full px-16  text-lg font-bold'>Cart</button>
-         <button className=' btn rounded-full px-16 text-lg font-semibold'>Wishlist</button>*/}
