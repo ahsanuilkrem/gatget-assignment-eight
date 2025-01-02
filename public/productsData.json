@@ -1,0 +1,179 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "UltraThin Laptop Pro",
+        "product_image": "https://i.ibb.co.com/1KyYFYk/laptop-1.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "A sleek and powerful laptop perfect for professionals.",
+        "Specification": [
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i7 Processor"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 2,
+        "product_title": "Gaming Beast Laptop",
+        "product_image": "https://i.ibb.co.com/syz70N3/laptop-2.jpg",
+        "category": "Laptops",
+        "price": 1399.99,
+        "description": "High-performance laptop designed for gaming enthusiasts.",
+        "Specification": [
+            "32GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3080"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 3,
+        "product_title": "Budget Laptop Lite",
+        "product_image": "https://i.ibb.co.com/BsK3xDp/laptop-3.jpg",
+        "category": "Laptops",
+        "price": 499.99,
+        "description": "Affordable and efficient for everyday tasks.",
+        "Specification": [
+            "8GB RAM",
+            "256GB SSD",
+            "Intel i5 Processor"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": 4,
+        "product_title": "Portable Laptop X",
+        "product_image":"https://i.ibb.co.com/27t2jLN/laptop-4.jpg"  ,
+        "category": "Laptops",
+        "price": 749.99,
+        "description": "Versatile laptop that transforms into a tablet.",
+        "Specification": [
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i5 Processor"
+        ],
+        "availability": false,
+        "rating": 4.5
+    },
+    {
+        "product_id": 5,
+        "product_title": "Workstation Laptop",
+        "product_image": "https://i.ibb.co.com/1KyYFYk/laptop-1.jpg",
+        "category": "Laptops",
+        "price": 1999.99,
+        "description": "High-end laptop for intensive workloads.",
+        "Specification": [
+            "64GB RAM",
+            "2TB SSD",
+            "Intel Xeon Processor"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 6,
+        "product_title": "Portable Laptop X",
+        "product_image": "https://i.ibb.co.com/27t2jLN/laptop-4.jpg",
+        "category": "Laptops",
+        "price": 849.99,
+        "description": "Lightweight and portable laptop for on-the-go use.",
+        "Specification": [
+            "12GB RAM",
+            "512GB SSD",
+            "AMD Ryzen 5"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 7,
+        "product_title": "Smartphone Z Pro",
+        "product_image": "https://i.ibb.co.com/9pnRj4S/vivo-1.jpg",
+        "category": "Phones",
+        "price": 899.99,
+        "description": "A flagship smartphone with cutting-edge technology.",
+        "Specification": [
+            "128GB Storage",
+            "12MP Camera",
+            "5G Capable"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 8,
+        "product_title": "Budget Phone Lite",
+        "product_image": "https://i.ibb.co.com/rcwQ2RD/sung-2.jpg",
+        "category": "Phones",
+        "price": 299.99,
+        "description": "An affordable smartphone for everyday use.",
+        "Specification": [
+            "64GB Storage",
+            "8MP Camera",
+            "4G Capable"
+        ],
+        "availability": true,
+        "rating": 4.0
+    },
+    {
+        "product_id":9,
+        "product_title": "Camera Phone Pro",
+        "product_image": "https://i.ibb.co.com/t85R8YY/i-phone-3.jpg",
+        "category": "Phones",
+        "price": 1099.99,
+        "description": "Smartphone with exceptional camera quality.",
+        "Specification": [
+            "256GB Storage",
+            "108MP Camera",
+            "5G Capable"
+        ],
+        "availability": false,
+        "rating": 4.9
+    },
+    {
+        "product_id": 10,
+        "product_title": "Wireless Mouse",
+        "product_image": "https://i.ibb.co.com/n15tPrr/mouse.jpg",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "Ergonomic wireless mouse for comfortable use.",
+        "Specification": [
+            "Bluetooth Connectivity",
+            "Rechargeable Battery"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 11,
+        "product_title": "USB-C Hub",
+        "product_image": "https://i.ibb.co.com/z5X3v3b/usb-hub.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "Multi-port USB-C hub for versatile connectivity.",
+        "Specification": [
+            "3 USB Ports",
+            "HDMI Output"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id":12,
+        "product_title": "Laptop StandLaptop ",
+        "product_image": "https://i.ibb.co.com/RjjtbP5/laptop-stin.jpg",
+        "category": "Accessories",
+        "price": 39.99,
+        "description": "Adjustable laptop stand for better ergonomics.",
+        "Specification": [
+            "Foldable Design",
+            "Aluminum Build"
+        ],
+        "availability": true,
+        "rating": 4.5
+    }
+]
